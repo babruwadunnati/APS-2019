@@ -8,7 +8,7 @@ int main(){
     int newarr[6]={1,1,1,1,1,1};
     for(j=1;j<6;j++){
         for(i=0;i<j;i++){
-            if((arr[j]>arr[i])&&(newarr[j]<=newarr[i]+1)){
+            if((arr[j]>arr[i])&&(newarr[j]<newarr[i]+1)){
                     newarr[j]=newarr[j]+1;
 
             }
