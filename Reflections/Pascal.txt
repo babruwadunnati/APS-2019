@@ -1,0 +1,22 @@
+Binomial Co-efficients C(n,k) is the co-efficients if x^k in the expansion (1+x)^k.
+Pascal's Triangle Entries are the binomial co-efficients.
+The Binomial Co-efficients can be calculated using the following 3 methods:
+-Recursion
+-Dynamic Programming (2-D Array)
+-Dynamic Programming (1-D Array)
+
+-Recursion 
+This involves calling back the function again for all values.
+Diadvantage:
+Uses lot of Stack space.
+Uses lot of Processor time
+Advantages:
+Shorter code
+
+-2D array DP
+-The values are computed and stored in a 2 d arrat. so there is no need to calculate it all again for a value which is covered.
+For eg: C(10,5) calculates all the previous values. But in case of recursion, the values are again calculated, each time it is asked.
+
+1D Array Dp
+-The values are computed each time from the previous values. Most Optimal as it overites the existing array and gets the new values by adding 
+to the previous value.
