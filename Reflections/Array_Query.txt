@@ -1,0 +1,22 @@
+1.Look up Table
+-Space Complexity : n2
+-Time to fetch a value :constant time O(1)
+-Time complexity of the program : n2
+
+Applications of Look up Table :
+      - Sum in array
+      - Minimum no in array
+      - Maximum no in array
+   
+
+2. Square root Decomposition
+- Array is split into smaller blocks.
+- The size of the array is Square root(length) and the index of the smallest element of that range is stored.
+- Time complexity is O(n) for the array and O(squareroot(n)) for the smaller decomposed array.
+
+
+
+3. Segment Tree
+- This is used only when there is no updation. i.e. It is static.
+- It is a strictly binary tree (Complete binary tree with 2 or 0 child).
+- The complexity is O(logn).
